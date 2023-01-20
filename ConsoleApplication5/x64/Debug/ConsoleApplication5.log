@@ -1,0 +1,208 @@
+﻿  ConsoleApplication5.cpp
+C:\Users\Dell\Desktop\ConsoleApplication5\ConsoleApplication5.cpp(41,9): error C3861: 'gets': identifier not found
+C:\Users\Dell\Desktop\ConsoleApplication5\ConsoleApplication5.cpp(61,13): error C2678: binary '<<': no operator found which takes a left-hand operand of type 'std::ostream' (or there is no acceptable conversion)
+D:\Program Files\Visual Studio\VC\Tools\MSVC\14.34.31933\include\ostream(475,39): message : could be 'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_streambuf<char,std::char_traits<char>> *)'
+D:\Program Files\Visual Studio\VC\Tools\MSVC\14.34.31933\include\ostream(443,39): message : or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(const void *)'
+D:\Program Files\Visual Studio\VC\Tools\MSVC\14.34.31933\include\ostream(425,39): message : or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(long double)'
+D:\Program Files\Visual Studio\VC\Tools\MSVC\14.34.31933\include\ostream(407,39): message : or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(double)'
+D:\Program Files\Visual Studio\VC\Tools\MSVC\14.34.31933\include\ostream(389,39): message : or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(float)'
+D:\Program Files\Visual Studio\VC\Tools\MSVC\14.34.31933\include\ostream(371,39): message : or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned __int64)'
+D:\Program Files\Visual Studio\VC\Tools\MSVC\14.34.31933\include\ostream(353,39): message : or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(__int64)'
+D:\Program Files\Visual Studio\VC\Tools\MSVC\14.34.31933\include\ostream(335,39): message : or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned long)'
+D:\Program Files\Visual Studio\VC\Tools\MSVC\14.34.31933\include\ostream(317,39): message : or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(long)'
+D:\Program Files\Visual Studio\VC\Tools\MSVC\14.34.31933\include\ostream(298,39): message : or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned int)'
+D:\Program Files\Visual Studio\VC\Tools\MSVC\14.34.31933\include\ostream(272,39): message : or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(int)'
+D:\Program Files\Visual Studio\VC\Tools\MSVC\14.34.31933\include\ostream(253,39): message : or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned short)'
+D:\Program Files\Visual Studio\VC\Tools\MSVC\14.34.31933\include\ostream(219,39): message : or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(short)'
+D:\Program Files\Visual Studio\VC\Tools\MSVC\14.34.31933\include\ostream(201,39): message : or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(bool)'
+D:\Program Files\Visual Studio\VC\Tools\MSVC\14.34.31933\include\ostream(195,39): message : or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::ios_base &(__cdecl *)(std::ios_base &))'
+D:\Program Files\Visual Studio\VC\Tools\MSVC\14.34.31933\include\ostream(189,39): message : or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_ios<char,std::char_traits<char>> &(__cdecl *)(std::basic_ios<char,std::char_traits<char>> &))'
+D:\Program Files\Visual Studio\VC\Tools\MSVC\14.34.31933\include\ostream(184,39): message : or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_ostream<char,std::char_traits<char>> &(__cdecl *)(std::basic_ostream<char,std::char_traits<char>> &))'
+C:\Users\Dell\Desktop\ConsoleApplication5\ConsoleApplication5.cpp(61,13): message : or       'built-in C++ operator<<(int, int)'
+D:\Program Files\Visual Studio\VC\Tools\MSVC\14.34.31933\include\ostream(1075,32): message : or       'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::error_code &)'
+C:\Users\Dell\Desktop\ConsoleApplication5\ConsoleApplication5.cpp(61,21): message : 'initializing': cannot convert from 'std::ofstream' to 'const std::error_code &'
+C:\Users\Dell\Desktop\ConsoleApplication5\ConsoleApplication5.cpp(61,21): message : Reason: cannot convert from 'std::ofstream' to 'const std::error_code'
+C:\Users\Dell\Desktop\ConsoleApplication5\ConsoleApplication5.cpp(61,21): message : No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+D:\Program Files\Visual Studio\VC\Tools\MSVC\14.34.31933\include\ostream(998,9): message : or       '_Ostr &&std::operator <<(_Ostr &&,const _Ty &)'
+C:\Users\Dell\Desktop\ConsoleApplication5\ConsoleApplication5.cpp(61,13): message : '_Ostr &&std::operator <<(_Ostr &&,const _Ty &)': could not deduce template argument for '__formal'
+D:\Program Files\Visual Studio\VC\Tools\MSVC\14.34.31933\include\ostream(940,31): message : or       'std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,unsigned char)'
+C:\Users\Dell\Desktop\ConsoleApplication5\ConsoleApplication5.cpp(61,21): message : 'initializing': cannot convert from 'std::ofstream' to 'unsigned char'
+C:\Users\Dell\Desktop\ConsoleApplication5\ConsoleApplication5.cpp(61,21): message : No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+D:\Program Files\Visual Studio\VC\Tools\MSVC\14.34.31933\include\ostream(934,31): message : or       'std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,const unsigned char *)'
+C:\Users\Dell\Desktop\ConsoleApplication5\ConsoleApplication5.cpp(61,21): message : 'initializing': cannot convert from 'std::ofstream' to 'const unsigned char *'
+C:\Users\Dell\Desktop\ConsoleApplication5\ConsoleApplication5.cpp(61,21): message : No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+D:\Program Files\Visual Studio\VC\Tools\MSVC\14.34.31933\include\ostream(929,31): message : or       'std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,signed char)'
+C:\Users\Dell\Desktop\ConsoleApplication5\ConsoleApplication5.cpp(61,21): message : 'initializing': cannot convert from 'std::ofstream' to 'signed char'
+C:\Users\Dell\Desktop\ConsoleApplication5\ConsoleApplication5.cpp(61,21): message : No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+D:\Program Files\Visual Studio\VC\Tools\MSVC\14.34.31933\include\ostream(923,31): message : or       'std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,const signed char *)'
+C:\Users\Dell\Desktop\ConsoleApplication5\ConsoleApplication5.cpp(61,21): message : 'initializing': cannot convert from 'std::ofstream' to 'const signed char *'
+C:\Users\Dell\Desktop\ConsoleApplication5\ConsoleApplication5.cpp(61,21): message : No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+D:\Program Files\Visual Studio\VC\Tools\MSVC\14.34.31933\include\ostream(887,32): message : or       'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,_Elem)'
+C:\Users\Dell\Desktop\ConsoleApplication5\ConsoleApplication5.cpp(61,13): message : 'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,_Elem)': template parameter '_Elem' is ambiguous
+C:\Users\Dell\Desktop\ConsoleApplication5\ConsoleApplication5.cpp(61,13): message : could be 'std::ofstream'
+C:\Users\Dell\Desktop\ConsoleApplication5\ConsoleApplication5.cpp(61,13): message : or       'char'
+C:\Users\Dell\Desktop\ConsoleApplication5\ConsoleApplication5.cpp(61,13): message : 'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,_Elem)': could not deduce template argument for '_Elem' from 'std::ofstream'
+D:\Program Files\Visual Studio\VC\Tools\MSVC\14.34.31933\include\ostream(844,32): message : or       'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const _Elem *)'
+C:\Users\Dell\Desktop\ConsoleApplication5\ConsoleApplication5.cpp(61,13): message : 'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const _Elem *)': could not deduce template argument for 'const _Elem *' from 'std::ofstream'
+D:\Program Files\Visual Studio\VC\Tools\MSVC\14.34.31933\include\ostream(806,31): message : or       'std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,char)'
+C:\Users\Dell\Desktop\ConsoleApplication5\ConsoleApplication5.cpp(61,21): message : 'initializing': cannot convert from 'std::ofstream' to 'char'
+C:\Users\Dell\Desktop\ConsoleApplication5\ConsoleApplication5.cpp(61,21): message : No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+D:\Program Files\Visual Studio\VC\Tools\MSVC\14.34.31933\include\ostream(761,31): message : or       'std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,const char *)'
+C:\Users\Dell\Desktop\ConsoleApplication5\ConsoleApplication5.cpp(61,21): message : 'initializing': cannot convert from 'std::ofstream' to 'const char *'
+C:\Users\Dell\Desktop\ConsoleApplication5\ConsoleApplication5.cpp(61,21): message : No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+D:\Program Files\Visual Studio\VC\Tools\MSVC\14.34.31933\include\ostream(725,32): message : or       'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,char)'
+C:\Users\Dell\Desktop\ConsoleApplication5\ConsoleApplication5.cpp(61,21): message : 'initializing': cannot convert from 'std::ofstream' to 'char'
+C:\Users\Dell\Desktop\ConsoleApplication5\ConsoleApplication5.cpp(61,21): message : No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+D:\Program Files\Visual Studio\VC\Tools\MSVC\14.34.31933\include\ostream(681,32): message : or       'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const char *)'
+C:\Users\Dell\Desktop\ConsoleApplication5\ConsoleApplication5.cpp(61,21): message : 'initializing': cannot convert from 'std::ofstream' to 'const char *'
+C:\Users\Dell\Desktop\ConsoleApplication5\ConsoleApplication5.cpp(61,21): message : No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+D:\Program Files\Visual Studio\VC\Tools\MSVC\14.34.31933\include\memory(3599,32): message : or       'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::unique_ptr<_Ty2,_Dx2> &)'
+C:\Users\Dell\Desktop\ConsoleApplication5\ConsoleApplication5.cpp(61,13): message : 'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::unique_ptr<_Ty2,_Dx2> &)': could not deduce template argument for 'const std::unique_ptr<_Ty2,_Dx2> &' from 'std::ofstream'
+D:\Program Files\Visual Studio\VC\Tools\MSVC\14.34.31933\include\memory(1915,32): message : or       'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::shared_ptr<_Ty> &)'
+C:\Users\Dell\Desktop\ConsoleApplication5\ConsoleApplication5.cpp(61,13): message : 'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::shared_ptr<_Ty> &)': could not deduce template argument for 'const std::shared_ptr<_Ty> &' from 'std::ofstream'
+D:\Program Files\Visual Studio\VC\Tools\MSVC\14.34.31933\include\xstring(5360,32): message : or       'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::basic_string<_Elem,_Traits,_Alloc> &)'
+C:\Users\Dell\Desktop\ConsoleApplication5\ConsoleApplication5.cpp(61,13): message : 'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::basic_string<_Elem,_Traits,_Alloc> &)': could not deduce template argument for 'const std::basic_string<_Elem,_Traits,_Alloc> &' from 'std::ofstream'
+C:\Users\Dell\Desktop\ConsoleApplication5\ConsoleApplication5.cpp(61,13): message : while trying to match the argument list '(std::ostream, std::ofstream)'
+C:\Users\Dell\Desktop\ConsoleApplication5\ConsoleApplication5.cpp(62,55): error C3861: 'gets': identifier not found
+C:\Users\Dell\Desktop\ConsoleApplication5\ConsoleApplication5.cpp(63,61): error C3861: 'gets': identifier not found
+C:\Users\Dell\Desktop\ConsoleApplication5\ConsoleApplication5.cpp(64,75): error C3861: 'gets': identifier not found
+C:\Users\Dell\Desktop\ConsoleApplication5\ConsoleApplication5.cpp(65,53): error C3861: 'gets': identifier not found
+C:\Users\Dell\Desktop\ConsoleApplication5\ConsoleApplication5.cpp(66,59): error C3861: 'gets': identifier not found
+C:\Users\Dell\Desktop\ConsoleApplication5\ConsoleApplication5.cpp(67,69): error C3861: 'gets': identifier not found
+C:\Users\Dell\Desktop\ConsoleApplication5\ConsoleApplication5.cpp(68,115): error C3861: 'gets': identifier not found
+C:\Users\Dell\Desktop\ConsoleApplication5\ConsoleApplication5.cpp(69,67): error C3861: 'gets': identifier not found
+C:\Users\Dell\Desktop\ConsoleApplication5\ConsoleApplication5.cpp(70,13): error C2678: binary '<<': no operator found which takes a left-hand operand of type 'std::ostream' (or there is no acceptable conversion)
+D:\Program Files\Visual Studio\VC\Tools\MSVC\14.34.31933\include\ostream(475,39): message : could be 'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_streambuf<char,std::char_traits<char>> *)'
+D:\Program Files\Visual Studio\VC\Tools\MSVC\14.34.31933\include\ostream(443,39): message : or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(const void *)'
+D:\Program Files\Visual Studio\VC\Tools\MSVC\14.34.31933\include\ostream(425,39): message : or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(long double)'
+D:\Program Files\Visual Studio\VC\Tools\MSVC\14.34.31933\include\ostream(407,39): message : or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(double)'
+D:\Program Files\Visual Studio\VC\Tools\MSVC\14.34.31933\include\ostream(389,39): message : or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(float)'
+D:\Program Files\Visual Studio\VC\Tools\MSVC\14.34.31933\include\ostream(371,39): message : or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned __int64)'
+D:\Program Files\Visual Studio\VC\Tools\MSVC\14.34.31933\include\ostream(353,39): message : or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(__int64)'
+D:\Program Files\Visual Studio\VC\Tools\MSVC\14.34.31933\include\ostream(335,39): message : or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned long)'
+D:\Program Files\Visual Studio\VC\Tools\MSVC\14.34.31933\include\ostream(317,39): message : or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(long)'
+D:\Program Files\Visual Studio\VC\Tools\MSVC\14.34.31933\include\ostream(298,39): message : or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned int)'
+D:\Program Files\Visual Studio\VC\Tools\MSVC\14.34.31933\include\ostream(272,39): message : or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(int)'
+D:\Program Files\Visual Studio\VC\Tools\MSVC\14.34.31933\include\ostream(253,39): message : or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned short)'
+D:\Program Files\Visual Studio\VC\Tools\MSVC\14.34.31933\include\ostream(219,39): message : or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(short)'
+D:\Program Files\Visual Studio\VC\Tools\MSVC\14.34.31933\include\ostream(201,39): message : or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(bool)'
+D:\Program Files\Visual Studio\VC\Tools\MSVC\14.34.31933\include\ostream(195,39): message : or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::ios_base &(__cdecl *)(std::ios_base &))'
+D:\Program Files\Visual Studio\VC\Tools\MSVC\14.34.31933\include\ostream(189,39): message : or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_ios<char,std::char_traits<char>> &(__cdecl *)(std::basic_ios<char,std::char_traits<char>> &))'
+D:\Program Files\Visual Studio\VC\Tools\MSVC\14.34.31933\include\ostream(184,39): message : or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_ostream<char,std::char_traits<char>> &(__cdecl *)(std::basic_ostream<char,std::char_traits<char>> &))'
+C:\Users\Dell\Desktop\ConsoleApplication5\ConsoleApplication5.cpp(70,13): message : or       'built-in C++ operator<<(int, int)'
+D:\Program Files\Visual Studio\VC\Tools\MSVC\14.34.31933\include\ostream(1075,32): message : or       'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::error_code &)'
+C:\Users\Dell\Desktop\ConsoleApplication5\ConsoleApplication5.cpp(70,21): message : 'initializing': cannot convert from 'std::ofstream' to 'const std::error_code &'
+C:\Users\Dell\Desktop\ConsoleApplication5\ConsoleApplication5.cpp(70,21): message : Reason: cannot convert from 'std::ofstream' to 'const std::error_code'
+C:\Users\Dell\Desktop\ConsoleApplication5\ConsoleApplication5.cpp(70,21): message : No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+D:\Program Files\Visual Studio\VC\Tools\MSVC\14.34.31933\include\ostream(998,9): message : or       '_Ostr &&std::operator <<(_Ostr &&,const _Ty &)'
+C:\Users\Dell\Desktop\ConsoleApplication5\ConsoleApplication5.cpp(70,30): message : '_Ostr &&std::operator <<(_Ostr &&,const _Ty &)': could not deduce template argument for '__formal'
+D:\Program Files\Visual Studio\VC\Tools\MSVC\14.34.31933\include\ostream(940,31): message : or       'std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,unsigned char)'
+C:\Users\Dell\Desktop\ConsoleApplication5\ConsoleApplication5.cpp(70,21): message : 'initializing': cannot convert from 'std::ofstream' to 'unsigned char'
+C:\Users\Dell\Desktop\ConsoleApplication5\ConsoleApplication5.cpp(70,21): message : No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+D:\Program Files\Visual Studio\VC\Tools\MSVC\14.34.31933\include\ostream(934,31): message : or       'std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,const unsigned char *)'
+C:\Users\Dell\Desktop\ConsoleApplication5\ConsoleApplication5.cpp(70,21): message : 'initializing': cannot convert from 'std::ofstream' to 'const unsigned char *'
+C:\Users\Dell\Desktop\ConsoleApplication5\ConsoleApplication5.cpp(70,21): message : No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+D:\Program Files\Visual Studio\VC\Tools\MSVC\14.34.31933\include\ostream(929,31): message : or       'std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,signed char)'
+C:\Users\Dell\Desktop\ConsoleApplication5\ConsoleApplication5.cpp(70,21): message : 'initializing': cannot convert from 'std::ofstream' to 'signed char'
+C:\Users\Dell\Desktop\ConsoleApplication5\ConsoleApplication5.cpp(70,21): message : No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+D:\Program Files\Visual Studio\VC\Tools\MSVC\14.34.31933\include\ostream(923,31): message : or       'std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,const signed char *)'
+C:\Users\Dell\Desktop\ConsoleApplication5\ConsoleApplication5.cpp(70,21): message : 'initializing': cannot convert from 'std::ofstream' to 'const signed char *'
+C:\Users\Dell\Desktop\ConsoleApplication5\ConsoleApplication5.cpp(70,21): message : No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+D:\Program Files\Visual Studio\VC\Tools\MSVC\14.34.31933\include\ostream(887,32): message : or       'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,_Elem)'
+C:\Users\Dell\Desktop\ConsoleApplication5\ConsoleApplication5.cpp(70,13): message : 'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,_Elem)': template parameter '_Elem' is ambiguous
+C:\Users\Dell\Desktop\ConsoleApplication5\ConsoleApplication5.cpp(70,13): message : could be 'std::ofstream'
+C:\Users\Dell\Desktop\ConsoleApplication5\ConsoleApplication5.cpp(70,13): message : or       'char'
+C:\Users\Dell\Desktop\ConsoleApplication5\ConsoleApplication5.cpp(70,13): message : 'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,_Elem)': could not deduce template argument for '_Elem' from 'std::ofstream'
+D:\Program Files\Visual Studio\VC\Tools\MSVC\14.34.31933\include\ostream(844,32): message : or       'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const _Elem *)'
+C:\Users\Dell\Desktop\ConsoleApplication5\ConsoleApplication5.cpp(70,13): message : 'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const _Elem *)': could not deduce template argument for 'const _Elem *' from 'std::ofstream'
+D:\Program Files\Visual Studio\VC\Tools\MSVC\14.34.31933\include\ostream(806,31): message : or       'std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,char)'
+C:\Users\Dell\Desktop\ConsoleApplication5\ConsoleApplication5.cpp(70,21): message : 'initializing': cannot convert from 'std::ofstream' to 'char'
+C:\Users\Dell\Desktop\ConsoleApplication5\ConsoleApplication5.cpp(70,21): message : No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+D:\Program Files\Visual Studio\VC\Tools\MSVC\14.34.31933\include\ostream(761,31): message : or       'std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,const char *)'
+C:\Users\Dell\Desktop\ConsoleApplication5\ConsoleApplication5.cpp(70,21): message : 'initializing': cannot convert from 'std::ofstream' to 'const char *'
+C:\Users\Dell\Desktop\ConsoleApplication5\ConsoleApplication5.cpp(70,21): message : No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+D:\Program Files\Visual Studio\VC\Tools\MSVC\14.34.31933\include\ostream(725,32): message : or       'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,char)'
+C:\Users\Dell\Desktop\ConsoleApplication5\ConsoleApplication5.cpp(70,21): message : 'initializing': cannot convert from 'std::ofstream' to 'char'
+C:\Users\Dell\Desktop\ConsoleApplication5\ConsoleApplication5.cpp(70,21): message : No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+D:\Program Files\Visual Studio\VC\Tools\MSVC\14.34.31933\include\ostream(681,32): message : or       'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const char *)'
+C:\Users\Dell\Desktop\ConsoleApplication5\ConsoleApplication5.cpp(70,21): message : 'initializing': cannot convert from 'std::ofstream' to 'const char *'
+C:\Users\Dell\Desktop\ConsoleApplication5\ConsoleApplication5.cpp(70,21): message : No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+D:\Program Files\Visual Studio\VC\Tools\MSVC\14.34.31933\include\memory(3599,32): message : or       'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::unique_ptr<_Ty2,_Dx2> &)'
+C:\Users\Dell\Desktop\ConsoleApplication5\ConsoleApplication5.cpp(70,13): message : 'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::unique_ptr<_Ty2,_Dx2> &)': could not deduce template argument for 'const std::unique_ptr<_Ty2,_Dx2> &' from 'std::ofstream'
+D:\Program Files\Visual Studio\VC\Tools\MSVC\14.34.31933\include\memory(1915,32): message : or       'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::shared_ptr<_Ty> &)'
+C:\Users\Dell\Desktop\ConsoleApplication5\ConsoleApplication5.cpp(70,13): message : 'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::shared_ptr<_Ty> &)': could not deduce template argument for 'const std::shared_ptr<_Ty> &' from 'std::ofstream'
+D:\Program Files\Visual Studio\VC\Tools\MSVC\14.34.31933\include\xstring(5360,32): message : or       'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::basic_string<_Elem,_Traits,_Alloc> &)'
+C:\Users\Dell\Desktop\ConsoleApplication5\ConsoleApplication5.cpp(70,13): message : 'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::basic_string<_Elem,_Traits,_Alloc> &)': could not deduce template argument for 'const std::basic_string<_Elem,_Traits,_Alloc> &' from 'std::ofstream'
+C:\Users\Dell\Desktop\ConsoleApplication5\ConsoleApplication5.cpp(70,13): message : while trying to match the argument list '(std::ostream, std::ofstream)'
+C:\Users\Dell\Desktop\ConsoleApplication5\ConsoleApplication5.cpp(83,9): error C3861: 'gets': identifier not found
+C:\Users\Dell\Desktop\ConsoleApplication5\ConsoleApplication5.cpp(97,17): error C3861: 'getline': identifier not found
+C:\Users\Dell\Desktop\ConsoleApplication5\ConsoleApplication5.cpp(102,18): error C2678: binary '<<': no operator found which takes a left-hand operand of type 'std::basic_ostream<char,std::char_traits<char>>' (or there is no acceptable conversion)
+D:\Program Files\Visual Studio\VC\Tools\MSVC\14.34.31933\include\ostream(475,39): message : could be 'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_streambuf<char,std::char_traits<char>> *)'
+D:\Program Files\Visual Studio\VC\Tools\MSVC\14.34.31933\include\ostream(443,39): message : or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(const void *)'
+D:\Program Files\Visual Studio\VC\Tools\MSVC\14.34.31933\include\ostream(425,39): message : or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(long double)'
+D:\Program Files\Visual Studio\VC\Tools\MSVC\14.34.31933\include\ostream(407,39): message : or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(double)'
+D:\Program Files\Visual Studio\VC\Tools\MSVC\14.34.31933\include\ostream(389,39): message : or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(float)'
+D:\Program Files\Visual Studio\VC\Tools\MSVC\14.34.31933\include\ostream(371,39): message : or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned __int64)'
+D:\Program Files\Visual Studio\VC\Tools\MSVC\14.34.31933\include\ostream(353,39): message : or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(__int64)'
+D:\Program Files\Visual Studio\VC\Tools\MSVC\14.34.31933\include\ostream(335,39): message : or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned long)'
+D:\Program Files\Visual Studio\VC\Tools\MSVC\14.34.31933\include\ostream(317,39): message : or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(long)'
+D:\Program Files\Visual Studio\VC\Tools\MSVC\14.34.31933\include\ostream(298,39): message : or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned int)'
+D:\Program Files\Visual Studio\VC\Tools\MSVC\14.34.31933\include\ostream(272,39): message : or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(int)'
+D:\Program Files\Visual Studio\VC\Tools\MSVC\14.34.31933\include\ostream(253,39): message : or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned short)'
+D:\Program Files\Visual Studio\VC\Tools\MSVC\14.34.31933\include\ostream(219,39): message : or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(short)'
+D:\Program Files\Visual Studio\VC\Tools\MSVC\14.34.31933\include\ostream(201,39): message : or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(bool)'
+D:\Program Files\Visual Studio\VC\Tools\MSVC\14.34.31933\include\ostream(195,39): message : or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::ios_base &(__cdecl *)(std::ios_base &))'
+D:\Program Files\Visual Studio\VC\Tools\MSVC\14.34.31933\include\ostream(189,39): message : or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_ios<char,std::char_traits<char>> &(__cdecl *)(std::basic_ios<char,std::char_traits<char>> &))'
+D:\Program Files\Visual Studio\VC\Tools\MSVC\14.34.31933\include\ostream(184,39): message : or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_ostream<char,std::char_traits<char>> &(__cdecl *)(std::basic_ostream<char,std::char_traits<char>> &))'
+C:\Users\Dell\Desktop\ConsoleApplication5\ConsoleApplication5.cpp(102,18): message : or       'built-in C++ operator<<(int, int)'
+D:\Program Files\Visual Studio\VC\Tools\MSVC\14.34.31933\include\ostream(1075,32): message : or       'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::error_code &)'
+C:\Users\Dell\Desktop\ConsoleApplication5\ConsoleApplication5.cpp(102,89): message : 'initializing': cannot convert from 'std::fstream' to 'const std::error_code &'
+C:\Users\Dell\Desktop\ConsoleApplication5\ConsoleApplication5.cpp(102,89): message : Reason: cannot convert from 'std::fstream' to 'const std::error_code'
+C:\Users\Dell\Desktop\ConsoleApplication5\ConsoleApplication5.cpp(102,89): message : No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+D:\Program Files\Visual Studio\VC\Tools\MSVC\14.34.31933\include\ostream(998,9): message : or       '_Ostr &&std::operator <<(_Ostr &&,const _Ty &)'
+C:\Users\Dell\Desktop\ConsoleApplication5\ConsoleApplication5.cpp(102,13): message : '_Ostr &&std::operator <<(_Ostr &&,const _Ty &)': could not deduce template argument for '__formal'
+D:\Program Files\Visual Studio\VC\Tools\MSVC\14.34.31933\include\ostream(940,31): message : or       'std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,unsigned char)'
+C:\Users\Dell\Desktop\ConsoleApplication5\ConsoleApplication5.cpp(102,89): message : 'initializing': cannot convert from 'std::fstream' to 'unsigned char'
+C:\Users\Dell\Desktop\ConsoleApplication5\ConsoleApplication5.cpp(102,89): message : No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+D:\Program Files\Visual Studio\VC\Tools\MSVC\14.34.31933\include\ostream(934,31): message : or       'std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,const unsigned char *)'
+C:\Users\Dell\Desktop\ConsoleApplication5\ConsoleApplication5.cpp(102,89): message : 'initializing': cannot convert from 'std::fstream' to 'const unsigned char *'
+C:\Users\Dell\Desktop\ConsoleApplication5\ConsoleApplication5.cpp(102,89): message : No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+D:\Program Files\Visual Studio\VC\Tools\MSVC\14.34.31933\include\ostream(929,31): message : or       'std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,signed char)'
+C:\Users\Dell\Desktop\ConsoleApplication5\ConsoleApplication5.cpp(102,89): message : 'initializing': cannot convert from 'std::fstream' to 'signed char'
+C:\Users\Dell\Desktop\ConsoleApplication5\ConsoleApplication5.cpp(102,89): message : No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+D:\Program Files\Visual Studio\VC\Tools\MSVC\14.34.31933\include\ostream(923,31): message : or       'std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,const signed char *)'
+C:\Users\Dell\Desktop\ConsoleApplication5\ConsoleApplication5.cpp(102,89): message : 'initializing': cannot convert from 'std::fstream' to 'const signed char *'
+C:\Users\Dell\Desktop\ConsoleApplication5\ConsoleApplication5.cpp(102,89): message : No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+D:\Program Files\Visual Studio\VC\Tools\MSVC\14.34.31933\include\ostream(887,32): message : or       'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,_Elem)'
+C:\Users\Dell\Desktop\ConsoleApplication5\ConsoleApplication5.cpp(102,18): message : 'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,_Elem)': template parameter '_Elem' is ambiguous
+C:\Users\Dell\Desktop\ConsoleApplication5\ConsoleApplication5.cpp(102,18): message : could be 'std::fstream'
+C:\Users\Dell\Desktop\ConsoleApplication5\ConsoleApplication5.cpp(102,18): message : or       'char'
+C:\Users\Dell\Desktop\ConsoleApplication5\ConsoleApplication5.cpp(102,18): message : 'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,_Elem)': could not deduce template argument for '_Elem' from 'std::fstream'
+D:\Program Files\Visual Studio\VC\Tools\MSVC\14.34.31933\include\ostream(844,32): message : or       'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const _Elem *)'
+C:\Users\Dell\Desktop\ConsoleApplication5\ConsoleApplication5.cpp(102,18): message : 'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const _Elem *)': could not deduce template argument for 'const _Elem *' from 'std::fstream'
+D:\Program Files\Visual Studio\VC\Tools\MSVC\14.34.31933\include\ostream(806,31): message : or       'std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,char)'
+C:\Users\Dell\Desktop\ConsoleApplication5\ConsoleApplication5.cpp(102,89): message : 'initializing': cannot convert from 'std::fstream' to 'char'
+C:\Users\Dell\Desktop\ConsoleApplication5\ConsoleApplication5.cpp(102,89): message : No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+D:\Program Files\Visual Studio\VC\Tools\MSVC\14.34.31933\include\ostream(761,31): message : or       'std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,const char *)'
+C:\Users\Dell\Desktop\ConsoleApplication5\ConsoleApplication5.cpp(102,89): message : 'initializing': cannot convert from 'std::fstream' to 'const char *'
+C:\Users\Dell\Desktop\ConsoleApplication5\ConsoleApplication5.cpp(102,89): message : No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+D:\Program Files\Visual Studio\VC\Tools\MSVC\14.34.31933\include\ostream(725,32): message : or       'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,char)'
+C:\Users\Dell\Desktop\ConsoleApplication5\ConsoleApplication5.cpp(102,89): message : 'initializing': cannot convert from 'std::fstream' to 'char'
+C:\Users\Dell\Desktop\ConsoleApplication5\ConsoleApplication5.cpp(102,89): message : No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+D:\Program Files\Visual Studio\VC\Tools\MSVC\14.34.31933\include\ostream(681,32): message : or       'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const char *)'
+C:\Users\Dell\Desktop\ConsoleApplication5\ConsoleApplication5.cpp(102,89): message : 'initializing': cannot convert from 'std::fstream' to 'const char *'
+C:\Users\Dell\Desktop\ConsoleApplication5\ConsoleApplication5.cpp(102,89): message : No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+D:\Program Files\Visual Studio\VC\Tools\MSVC\14.34.31933\include\memory(3599,32): message : or       'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::unique_ptr<_Ty2,_Dx2> &)'
+C:\Users\Dell\Desktop\ConsoleApplication5\ConsoleApplication5.cpp(102,18): message : 'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::unique_ptr<_Ty2,_Dx2> &)': could not deduce template argument for 'const std::unique_ptr<_Ty2,_Dx2> &' from 'std::fstream'
+D:\Program Files\Visual Studio\VC\Tools\MSVC\14.34.31933\include\memory(1915,32): message : or       'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::shared_ptr<_Ty> &)'
+C:\Users\Dell\Desktop\ConsoleApplication5\ConsoleApplication5.cpp(102,18): message : 'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::shared_ptr<_Ty> &)': could not deduce template argument for 'const std::shared_ptr<_Ty> &' from 'std::fstream'
+D:\Program Files\Visual Studio\VC\Tools\MSVC\14.34.31933\include\xstring(5360,32): message : or       'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::basic_string<_Elem,_Traits,_Alloc> &)'
+C:\Users\Dell\Desktop\ConsoleApplication5\ConsoleApplication5.cpp(102,18): message : 'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::basic_string<_Elem,_Traits,_Alloc> &)': could not deduce template argument for 'const std::basic_string<_Elem,_Traits,_Alloc> &' from 'std::fstream'
+C:\Users\Dell\Desktop\ConsoleApplication5\ConsoleApplication5.cpp(102,18): message : while trying to match the argument list '(std::basic_ostream<char,std::char_traits<char>>, std::fstream)'
+C:\Users\Dell\Desktop\ConsoleApplication5\ConsoleApplication5.cpp(112,63): error C3861: 'gets': identifier not found
+C:\Users\Dell\Desktop\ConsoleApplication5\ConsoleApplication5.cpp(113,65): error C3861: 'gets': identifier not found
+C:\Users\Dell\Desktop\ConsoleApplication5\ConsoleApplication5.cpp(114,65): error C3861: 'gets': identifier not found
+C:\Users\Dell\Desktop\ConsoleApplication5\ConsoleApplication5.cpp(115,87): error C3861: 'gets': identifier not found
+C:\Users\Dell\Desktop\ConsoleApplication5\ConsoleApplication5.cpp(116,71): error C3861: 'gets': identifier not found
+C:\Users\Dell\Desktop\ConsoleApplication5\ConsoleApplication5.cpp(130,9): error C3861: 'gets': identifier not found
+C:\Users\Dell\Desktop\ConsoleApplication5\ConsoleApplication5.cpp(143,17): error C3861: 'getline': identifier not found
